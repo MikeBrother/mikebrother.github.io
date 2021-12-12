@@ -366,21 +366,27 @@
 		{
 			"uri": "spruce_full_02_trunk_Normal.png"
 		},
-		
+		{
+			"uri": "spruce_full_02_trunk_Occlusion.png"
+		},
 		{
 			"uri": "spruce_full_02_leaf_BaseColor.png"
 		},
 		{
 			"uri": "spruce_full_02_leaf_Normal.png"
 		},
-		
+		{
+			"uri": "spruce_full_02_leaf_Occlusion.png"
+		},
 		{
 			"uri": "spruce_full_02_branch_BaseColor.png"
 		},
 		{
 			"uri": "spruce_full_02_branch_Normal.png"
 		},
-		
+		{
+			"uri": "spruce_full_02_branch_Occlusion.png"
+		}
 	],
 	"materials": [
 		{
@@ -398,7 +404,10 @@
 			{
 				"index": 0
 			},
-			
+			"occlusionTexture":
+			{
+				"index": 1
+			},
 			"alphaMode": "MASK",
 			"alphaCutoff": 0.333299994,
 			"doubleSided": true
@@ -417,7 +426,10 @@
 			{
 				"index": 3
 			},
-			
+			"occlusionTexture":
+			{
+				"index": 4
+			},
 			"alphaMode": "MASK",
 			"alphaCutoff": 0.333299994,
 			"doubleSided": true
@@ -436,7 +448,10 @@
 			{
 				"index": 6
 			},
-			
+			"occlusionTexture":
+			{
+				"index": 7
+			},
 			"alphaMode": "MASK",
 			"alphaCutoff": 0.333299994,
 			"doubleSided": true

@@ -1136,7 +1136,22 @@
 	],
 	"images": [
 		{
-			"uri": "8e02a97b-59e5-479f-9d4f-84b9edcd4410.png"
+			"uri": "treemat_sacur_prim6_8_BaseColor.png"
+		},
+		{
+			"uri": "treemat_sacur_prim6_8_BaseColor_1.png"
+		},
+		{
+			"uri": "treemat_sacur_prim2_14_BaseColor.png"
+		},
+		{
+			"uri": "treemat_sacur_prim2_14_BaseColor_1.png"
+		},
+		{
+			"uri": "treemat_sacur_prim4_18_BaseColor.png"
+		},
+		{
+			"uri": "treemat_sacur_prim4_18_BaseColor_1.png"
 		},
 		{
 			"uri": "6f266f82-126a-4290-958d-fc43fe787866.png"
@@ -1147,17 +1162,35 @@
 	],
 	"materials": [
 		{
-			"name": "treemat",
+			"name": "treemat_sacur_prim6_8",
 			"pbrMetallicRoughness":
 			{
 				"baseColorTexture":
 				{
-					"index": 0
+					"index": 0,
+					"texCoord": 1
 				},
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			},
-			"alphaMode": "BLEND",
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		},
+		{
+			"name": "treemat_sacur_prim6_8",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 1,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
 			"doubleSided": true
 		},
 		{
@@ -1166,7 +1199,7 @@
 			{
 				"baseColorTexture":
 				{
-					"index": 1
+					"index": 2
 				},
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
@@ -1178,16 +1211,80 @@
 			{
 				"baseColorTexture":
 				{
-					"index": 2
+					"index": 3
 				},
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			}
+		},
+		{
+			"name": "treemat_sacur_prim2_14",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 4,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		},
+		{
+			"name": "treemat_sacur_prim2_14",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 5,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		},
+		{
+			"name": "treemat_sacur_prim4_18",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 6,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		},
+		{
+			"name": "treemat_sacur_prim4_18",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 7,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
 		}
 	],
 	"meshes": [
 		{
-			"name": "sacur_prim6",
+			"name": "sacur_prim6_8",
 			"primitives": [
 				{
 					"attributes":
@@ -1211,7 +1308,7 @@
 						"TEXCOORD_1": 11
 					},
 					"indices": 6,
-					"material": 0
+					"material": 1
 				}
 			]
 		},
@@ -1228,7 +1325,7 @@
 						"TEXCOORD_1": 17
 					},
 					"indices": 12,
-					"material": 1
+					"material": 2
 				},
 				{
 					"attributes":
@@ -1240,7 +1337,7 @@
 						"TEXCOORD_1": 23
 					},
 					"indices": 18,
-					"material": 2
+					"material": 3
 				}
 			]
 		},
@@ -1257,7 +1354,7 @@
 						"TEXCOORD_1": 29
 					},
 					"indices": 24,
-					"material": 1
+					"material": 2
 				},
 				{
 					"attributes":
@@ -1269,12 +1366,12 @@
 						"TEXCOORD_1": 35
 					},
 					"indices": 30,
-					"material": 2
+					"material": 3
 				}
 			]
 		},
 		{
-			"name": "sacur_prim2",
+			"name": "sacur_prim2_14",
 			"primitives": [
 				{
 					"attributes":
@@ -1286,7 +1383,7 @@
 						"TEXCOORD_1": 41
 					},
 					"indices": 36,
-					"material": 0
+					"material": 4
 				},
 				{
 					"attributes":
@@ -1298,7 +1395,7 @@
 						"TEXCOORD_1": 47
 					},
 					"indices": 42,
-					"material": 0
+					"material": 5
 				}
 			]
 		},
@@ -1315,7 +1412,7 @@
 						"TEXCOORD_1": 53
 					},
 					"indices": 48,
-					"material": 1
+					"material": 2
 				},
 				{
 					"attributes":
@@ -1327,12 +1424,12 @@
 						"TEXCOORD_1": 59
 					},
 					"indices": 54,
-					"material": 2
+					"material": 3
 				}
 			]
 		},
 		{
-			"name": "sacur_prim4",
+			"name": "sacur_prim4_18",
 			"primitives": [
 				{
 					"attributes":
@@ -1344,7 +1441,7 @@
 						"TEXCOORD_1": 65
 					},
 					"indices": 60,
-					"material": 0
+					"material": 6
 				},
 				{
 					"attributes":
@@ -1356,7 +1453,7 @@
 						"TEXCOORD_1": 71
 					},
 					"indices": 66,
-					"material": 0
+					"material": 7
 				}
 			]
 		},
@@ -1373,7 +1470,7 @@
 						"TEXCOORD_1": 77
 					},
 					"indices": 72,
-					"material": 1
+					"material": 2
 				},
 				{
 					"attributes":
@@ -1385,7 +1482,7 @@
 						"TEXCOORD_1": 83
 					},
 					"indices": 78,
-					"material": 2
+					"material": 3
 				}
 			]
 		}
@@ -1450,7 +1547,32 @@
 	],
 	"samplers": [
 		{
-			"name": "8e02a97b-59e5-479f-9d4f-84b9edcd4410",
+			"name": "treemat_sacur_prim6_8_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "treemat_sacur_prim6_8_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "treemat_sacur_prim2_14_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "treemat_sacur_prim2_14_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "treemat_sacur_prim4_18_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "treemat_sacur_prim4_18_BaseColor",
 			"minFilter": 9987,
 			"magFilter": 9729
 		},
@@ -1473,19 +1595,44 @@
 	],
 	"textures": [
 		{
-			"name": "8e02a97b-59e5-479f-9d4f-84b9edcd4410",
+			"name": "treemat_sacur_prim6_8_BaseColor",
 			"sampler": 0,
 			"source": 0
 		},
 		{
-			"name": "6f266f82-126a-4290-958d-fc43fe787866",
+			"name": "treemat_sacur_prim6_8_BaseColor",
 			"sampler": 1,
 			"source": 1
 		},
 		{
+			"name": "6f266f82-126a-4290-958d-fc43fe787866",
+			"sampler": 6,
+			"source": 6
+		},
+		{
 			"name": "c77ae2f6-22c0-4053-9118-cc80d32ef1bd",
+			"sampler": 7,
+			"source": 7
+		},
+		{
+			"name": "treemat_sacur_prim2_14_BaseColor",
 			"sampler": 2,
 			"source": 2
+		},
+		{
+			"name": "treemat_sacur_prim2_14_BaseColor",
+			"sampler": 3,
+			"source": 3
+		},
+		{
+			"name": "treemat_sacur_prim4_18_BaseColor",
+			"sampler": 4,
+			"source": 4
+		},
+		{
+			"name": "treemat_sacur_prim4_18_BaseColor",
+			"sampler": 5,
+			"source": 5
 		}
 	]
 }

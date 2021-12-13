@@ -183,6 +183,9 @@
 		},
 		{
 			"uri": "WorldGridMaterial_Normal.png"
+		},
+		{
+			"uri": "log2.png"
 		}
 	],
 	"materials": [
@@ -205,14 +208,13 @@
 			}
 		},
 		{
-			"name": "logo_mat_logo_StaticMesh",
+			"name": "logo_mat",
 			"pbrMetallicRoughness":
 			{
-				"baseColorFactor": [ 1,
-					0,
-					1,
-					1
-				],
+				"baseColorTexture":
+				{
+					"index": 3
+				},
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			},
@@ -277,6 +279,11 @@
 			"name": "WorldGridMaterial_Normal",
 			"minFilter": 9987,
 			"magFilter": 9729
+		},
+		{
+			"name": "log2",
+			"minFilter": 9987,
+			"magFilter": 9729
 		}
 	],
 	"scenes": [
@@ -300,6 +307,11 @@
 			"name": "WorldGridMaterial_Normal",
 			"sampler": 2,
 			"source": 2
+		},
+		{
+			"name": "log2",
+			"sampler": 3,
+			"source": 3
 		}
 	]
 }

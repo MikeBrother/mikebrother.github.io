@@ -1,0 +1,404 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 4.25.0 glTF Exporter 1.0.6"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4224,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 4175,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -1.4705404,
+				-0.0809055045,
+				-1.37188065
+			],
+			"max": [ 1.62050295,
+				0.294424504,
+				1.83920681
+			]
+		},
+		{
+			"bufferView": 2,
+			"count": 4175,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 4175,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 4175,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 4175,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 420,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 7,
+			"count": 356,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -6.36024332,
+				0.265521348,
+				-6.57306194
+			],
+			"max": [ 5.28363514,
+				10.3168116,
+				5.55234861
+			]
+		},
+		{
+			"bufferView": 8,
+			"count": 356,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 9,
+			"count": 356,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 356,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 356,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 12,
+			"count": 4590,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 13,
+			"count": 3256,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -3.83555293,
+				-0.0791613758,
+				-3.53838134
+			],
+			"max": [ 2.1435101,
+				7.51217699,
+				2.91589952
+			]
+		},
+		{
+			"bufferView": 14,
+			"count": 3256,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 15,
+			"count": 3256,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 16,
+			"count": 3256,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 17,
+			"count": 3256,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "tro.bin",
+			"byteLength": 454540
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8448,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50100,
+			"byteOffset": 8448,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50100,
+			"byteOffset": 58548,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 66800,
+			"byteOffset": 108648,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 33400,
+			"byteOffset": 175448,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 33400,
+			"byteOffset": 208848,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 840,
+			"byteOffset": 242248,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4272,
+			"byteOffset": 243088,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4272,
+			"byteOffset": 247360,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5696,
+			"byteOffset": 251632,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2848,
+			"byteOffset": 257328,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2848,
+			"byteOffset": 260176,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9180,
+			"byteOffset": 263024,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39072,
+			"byteOffset": 272204,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39072,
+			"byteOffset": 311276,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 52096,
+			"byteOffset": 350348,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26048,
+			"byteOffset": 402444,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26048,
+			"byteOffset": 428492,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "Material1-material_tr2_prim1_51_BaseColor.png"
+		},
+		{
+			"uri": "1f212ff6-e3ea-44d6-b7db-4886d2865ce7.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "Material0-material",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		},
+		{
+			"name": "Material1-material_tr2_prim1_51",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 1,
+					"texCoord": 1
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "tr2_prim2",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "tr2_prim1_51",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 10,
+						"TEXCOORD_1": 11
+					},
+					"indices": 6,
+					"material": 1
+				}
+			]
+		},
+		{
+			"name": "tr2_prim0",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 13,
+						"NORMAL": 14,
+						"TANGENT": 15,
+						"TEXCOORD_0": 16,
+						"TEXCOORD_1": 17
+					},
+					"indices": 12,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "tr2_prim2_49_StaticMeshComponent0",
+			"translation": [ 41.0999985,
+				1.39999998,
+				72.5
+			],
+			"mesh": 0
+		},
+		{
+			"name": "tr2_prim1_51_StaticMeshComponent0",
+			"translation": [ 41.0999985,
+				1.39999998,
+				72.5
+			],
+			"mesh": 1
+		},
+		{
+			"name": "tr2_prim0_53_StaticMeshComponent0",
+			"translation": [ 41.0999985,
+				1.39999998,
+				72.5
+			],
+			"mesh": 2
+		}
+	],
+	"samplers": [
+		{
+			"name": "Material1-material_tr2_prim1_51_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "1f212ff6-e3ea-44d6-b7db-4886d2865ce7",
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"name": "ThirdPersonExampleMap",
+			"nodes": [ 0, 1, 2 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "1f212ff6-e3ea-44d6-b7db-4886d2865ce7",
+			"sampler": 1,
+			"source": 1
+		},
+		{
+			"name": "Material1-material_tr2_prim1_51_BaseColor",
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

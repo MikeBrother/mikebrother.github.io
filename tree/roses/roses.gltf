@@ -1,0 +1,280 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 4.25.0 glTF Exporter 1.0.6"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2166,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1146,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.00455835043,
+				-0.00384841487,
+				-0.00466625299
+			],
+			"max": [ 0.00455834577,
+				0.00384841487,
+				0.00466624973
+			]
+		},
+		{
+			"bufferView": 2,
+			"count": 1146,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1146,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1146,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1146,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 762,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 7,
+			"count": 206,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.00319960294,
+				-0.00933821499,
+				-0.00355269085
+			],
+			"max": [ 0.00350233703,
+				-0.00263626478,
+				0.00314924889
+			]
+		},
+		{
+			"bufferView": 8,
+			"count": 206,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 9,
+			"count": 206,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 206,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 206,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "roses.bin",
+			"byteLength": 80808
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4332,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13752,
+			"byteOffset": 4332,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13752,
+			"byteOffset": 18084,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18336,
+			"byteOffset": 31836,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9168,
+			"byteOffset": 50172,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9168,
+			"byteOffset": 59340,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 762,
+			"byteOffset": 68508,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2472,
+			"byteOffset": 69272,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2472,
+			"byteOffset": 71744,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3296,
+			"byteOffset": 74216,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1648,
+			"byteOffset": 77512,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1648,
+			"byteOffset": 79160,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "19d20d8e-20e4-4c2a-bae5-c4d4a94cc9bf.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "Material0-material",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994
+		}
+	],
+	"meshes": [
+		{
+			"name": "roses_prim1",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "roses_prim0",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 10,
+						"TEXCOORD_1": 11
+					},
+					"indices": 6,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "roses_prim1_9_StaticMeshComponent0",
+			"translation": [ 14.5999994,
+				2.4039135,
+				12.5999994
+			],
+			"scale": [ 111.75,
+				111.75,
+				111.75
+			],
+			"mesh": 0
+		},
+		{
+			"name": "roses_prim0_11_StaticMeshComponent0",
+			"translation": [ 14.5999994,
+				2.4039135,
+				12.5999994
+			],
+			"scale": [ 111.75,
+				111.75,
+				111.75
+			],
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"name": "19d20d8e-20e4-4c2a-bae5-c4d4a94cc9bf",
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"name": "ThirdPersonExampleMap",
+			"nodes": [ 0, 1 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "19d20d8e-20e4-4c2a-bae5-c4d4a94cc9bf",
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
